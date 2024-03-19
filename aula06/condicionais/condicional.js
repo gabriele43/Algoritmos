@@ -20,11 +20,11 @@ if(meuTime === 'gremio'){
 //else if vai condiçao
 //else nao precisa de condição
 
-let paisDeorigem
+let paisDeorigem = 'brasil'
 if (paisDeorigem ==='brasil'){
     console.log ('brasileiros')
 }else if (paisDeorigem === 'EUA'){
-    console.log ('norteamericano')
+    console.log ('norte americano')
 }else if (paisDeorigem === 'canada'){
     console.log('canadense')
 }else{
@@ -32,19 +32,18 @@ if (paisDeorigem ==='brasil'){
 }
 
 
-let paisDeorigem
-switch (paisDeorigem) {
-    case 'brasil'
+let paisDeorigem2 = 'brasil'
+switch (paisDeorigem ) {
+    case 'brasil':
     console.log ('brasileiro')
-        break;
-    case 'EUA'
-       console.log ('norte americano')
-        break
-     case 'canada'
-     console.log ('canadense')
-             
+    break
+    case 'EUA':
+    console.log ('norte americano')
+    break
+    case 'canada':
+    console.log ('canadense')
     default:
-        console.log('nacionalidade nao mencionada')
+        console.log ('nacionalidade não mencionada')
         break;
 }
 
