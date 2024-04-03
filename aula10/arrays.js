@@ -9,7 +9,7 @@ console.log(listaDeCompras[2])//alface
  const pokemon = ['bulbassauro','squirtle', 'charmander']
  console.log(pokemon.length)//3
 
- //metodo includes (elemento) - determinase um array contem um determinado elemento
+ //metodo includes (elemento) - determinase se um array contem um determinado elemento
   const seriesBoas = ['breaking bad', 'brooklin nine-nine']
   console.log(seriesBoas.includes('breaking bad'))//true
   console.log(seriesBoas.includes('game of thrones'))//false
