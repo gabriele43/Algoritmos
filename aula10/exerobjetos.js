@@ -4,9 +4,9 @@ const filme = {
     direçao:'michael chaves',
     lançamento: '7 de setembro de 2023',
     elenco:['Taissa farmiga ','Anna Popplewell'],
-    javi: true 
-    
+    javi: true
 }
+
  console.log(
     'direçao:' + filme.direçao + '\n' +
     'nome:' + filme.nome + '\n' +
@@ -14,3 +14,5 @@ const filme = {
     'elenco:' + filme[elenco] + '\n'+
     'javi:' + filme[javi]
  );
+
+ 

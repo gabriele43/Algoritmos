@@ -30,3 +30,51 @@ const donoDoPet = {
     }
 }
 console.log(donoDoPet.pet.nomeDoPet)
+
+//funçoes dentro de objetos sao chamadas de método
+
+//array dentro de objetos
+ const curso = {
+    nome:'noturno frontend',
+    linguagem:['js','css','html']
+ }
+
+ console.log(curso.linguagem[0])
+
+ //array de objetos :temos uma array contendo tres objeto
+
+ const professores = [
+    {nome: 'andrei', modulo: 1 },
+    {nome: 'vitor', modulo: 2 },
+    {nome: 'mina', modulo: 3 }
+ ]
+
+ console.log(professor[1].nome)
+
+ //adicionar propriedades
+ // notaçao de ponto
+ curso.numeroEstudantes = 30
+
+ // spread copiamos o usuario e sobreescrevemos as propriedades nome e idade com novos valores
+ 
+ const usuario = {
+    nome:'prof',
+    idade: 25,
+    email: profsenacrs.com.br ,
+    cidade: 'sao paulo',
+    
+ }
+
+ const novoUsuario = {
+    ...usuario,
+    nome:'joão',
+    idade: 28,
+ }
+
+ //copiando arrays
+
+ const listaDeNome = ['mika', 'paula','vitor']
+ const copiaListaDeNomes = [...listaDeNomes]
+
+ console.log(copiaListaDeNomes)//['mika','paula','vitor']
+ 
