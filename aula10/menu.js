@@ -13,7 +13,7 @@ const readline = require ('readline-sync');
 function processarEscolha(opção){
     switch (opção) {
         case '1':
-            console.log('voceescolheu a opção 1.');
+            console.log('voce escolheu a opção 1.');
             break;
         case '2':
             console.log('voce escolheu a opção 2.');
@@ -43,5 +43,20 @@ function main(){
 
 //iniciar o programa
 main();
+
+//adicionar personagens
+
+const readline = require ('readline-sync');
+let array = []
+function adicionarPersonagem() {
+    let nomePersonagem = readline.question('digite onome do novo personagem:');
+    let idadeDoPersonagem = readline.question('digite a idade do novo personagem:');
+
+
+    array.push({nome:nomePersonagem, idade:idadeDoPersonagem});
+}
+
+adicionarPersonagem()
+console.log(array)
 
     

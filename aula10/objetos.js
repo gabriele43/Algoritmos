@@ -46,7 +46,7 @@ console.log(donoDoPet.pet.nomeDoPet)
  const professores = [
     {nome: 'andrei', modulo: 1 },
     {nome: 'vitor', modulo: 2 },
-    {nome: 'mina', modulo: 3 }
+    {nome: 'mina', modulo: 3 },
  ]
 
  console.log(professor[1].nome)
